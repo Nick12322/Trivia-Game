@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Quiz Game</h1>
+    <div id="startPage">
+        <button id="startGame">Start Game</button>
+    </div>
+    <div id="gamePage">
+        <h1 id="timer"></h1>
+        <h1>What is pi roughly equal to?</h1>
+            <form>
+                <input type="radio" class="choice-btn" name="q1">3</input>
+                <input type="radio" class="choice-btn" name="q1">5</input>
+                <input type="radio" class="choice-btn" name="q1">infinity</input>
+                <input type="radio" class="choice-btn" name="q1" value="true">3.141</input>
+            </form>
+        <h1>How many letters are there in the alphabet?</h1>
+            <form>
+                <input type="radio" class="choice-btn" name="q2">27</input>
+                <input type="radio" class="choice-btn" value="true" name="q2">26</input>
+                <input type="radio" class="choice-btn" name="q2">13</input>
+                <input type="radio" class="choice-btn" name="q2">29</input>
+            </form>
+    </div>
+    <div id="scorePage">
+        <h1>Correct Answers: <span id="correctAnswers"></span></h1>
+        <h1>Wrong Answers: <span id="wrongAnswers"></span></h1>
+        <h1>Unanswered questions: <span id="unansweredQuestions"></span></h1>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
