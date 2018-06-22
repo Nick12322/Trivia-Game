@@ -9,25 +9,91 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>Quiz Game</h1>
+    <h1>Math Quiz Game</h1>
     <div id="startPage">
         <button id="startGame">Start Game</button>
     </div>
     <div id="gamePage">
         <h1 id="timer"></h1>
+        
         <h1>What is pi roughly equal to?</h1>
             <form>
-                <input type="radio" class="choice-btn" name="q1">3</input>
-                <input type="radio" class="choice-btn" name="q1">5</input>
-                <input type="radio" class="choice-btn" name="q1">infinity</input>
+                <input type="radio" class="choice-btn" name="q1" value="false">3</input>
+                <input type="radio" class="choice-btn" name="q1" value="false">5</input>
+                <input type="radio" class="choice-btn" name="q1" value="false">infinity</input>
                 <input type="radio" class="choice-btn" name="q1" value="true">3.141</input>
             </form>
+        
         <h1>How many letters are there in the alphabet?</h1>
             <form>
-                <input type="radio" class="choice-btn" name="q2">27</input>
-                <input type="radio" class="choice-btn" value="true" name="q2">26</input>
-                <input type="radio" class="choice-btn" name="q2">13</input>
-                <input type="radio" class="choice-btn" name="q2">29</input>
+                <input type="radio" class="choice-btn" name="q2" value="false">27</input>
+                <input type="radio" class="choice-btn" name="q2" value="true">26</input>
+                <input type="radio" class="choice-btn" name="q2" value="false">13</input>
+                <input type="radio" class="choice-btn" name="q2" value="false">29</input>
+            </form>
+   
+         <h1>In Einstein's Theory of Relativity, E is equal to what?</h1>
+            <form>
+                <input type="radio" class="choice-btn" name="q3" value="false">42</input>
+                <input type="radio" class="choice-btn" name="q3" value="false">13</input>
+                <input type="radio" class="choice-btn" name="q3" value="false">e</input>
+                <input type="radio" class="choice-btn" name="q3" value="true">mc^2</input>
+            </form>
+    
+        <h1>What is the circumference of the Earth at the equator?</h1>
+            <form>
+                <input type="radio" class="choice-btn" name="q4" value="false">290,000 mi</input>
+                <input type="radio" class="choice-btn" name="q4" value="true">24,901 mi</input>
+                <input type="radio" class="choice-btn" name="q4" value="false">986,000km</input>
+                <input type="radio" class="choice-btn" name="q4" value="false">43,265km</input>
+            </form>
+    
+        <h1>2+2=?</h1>
+            <form>
+                <input type="radio" class="choice-btn" name="q5" value="false">.4</input>
+                <input type="radio" class="choice-btn" name="q5" value="false">40</input>
+                <input type="radio" class="choice-btn" name="q5" value="false">1/4</input>
+                <input type="radio" class="choice-btn" name="q5" value="true">4</input>
+            </form>
+    
+        <h1>How many days in a year?</h1>
+            <form>
+                <input type="radio" class="choice-btn" name="q6" value="true">365</input>
+                <input type="radio" class="choice-btn" name="q6" value="false">342</input>
+                <input type="radio" class="choice-btn" name="q6" value="false">100</input>
+                <input type="radio" class="choice-btn" name="q6" value="false">20</input>
+            </form>
+
+        <h1>How many dwarves did Snow White have?</h1>
+            <form>
+                <input type="radio" class="choice-btn" name="q7" value="false">12</input>
+                <input type="radio" class="choice-btn" name="q7" value="false">6</input>
+                <input type="radio" class="choice-btn" name="q7" value="false">2</input>
+                <input type="radio" class="choice-btn" name="q7" value="true">7</input>
+            </form>
+    
+        <h1>What is the number for emergency services in the U.S.?</h1>
+            <form>
+                <input type="radio" class="choice-btn" name="q8" value="false">0</input>
+                <input type="radio" class="choice-btn" name="q8" value="false">411</input>
+                <input type="radio" class="choice-btn" name="q8" value="false">1800</input>
+                <input type="radio" class="choice-btn" name="q8" value="true">911</input>
+            </form>
+        
+        <h1>How much money is in my bank account?</h1>
+            <form>
+                <input type="radio" class="choice-btn" name="q9" value="false">Millions</input>
+                <input type="radio" class="choice-btn" name="q9" value="true">literally 3 dollars</input>
+                <input type="radio" class="choice-btn" name="q9" value="false">$530.12</input>
+                <input type="radio" class="choice-btn" name="q9" value="false">$6,890</input>
+            </form>
+        
+        <h1>Two's company, three's a...</h1>
+            <form>
+                <input type="radio" class="choice-btn" name="q10" value="false">lot</input>
+                <input type="radio" class="choice-btn" name="q10" value="false">'nother person</input>
+                <input type="radio" class="choice-btn" name="q10" value="true">Crowd</input>
+                <input type="radio" class="choice-btn" name="q10" value="false">bird in the bush</input>
             </form>
     </div>
     <div id="scorePage">
